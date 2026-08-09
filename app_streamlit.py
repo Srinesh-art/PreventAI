@@ -5,9 +5,9 @@ hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
-header {visibility: hidden;}
 </style>
 """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 import pickle
@@ -52,7 +52,6 @@ body {
     box-shadow: 0 20px 40px rgba(0,255,255,0.35);
     background: rgba(0,255,255,0.08);
 }
-D:\PreventAI\app_streamlit.py
 /* Hero Card */
 .hero-card {
     padding:2rem;
